@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
@@ -7,7 +8,11 @@ import Startup from './pages/Startups';
 import About from './pages/About';
 import Apply from './pages/Apply';
 import Contact from './pages/Contact';
-import Foot from './common/Foot'
+
+import './App.css'
+import Footer from './common/Foot'
+
+
 function App() {
   return (
     <Router>
@@ -19,7 +24,7 @@ function App() {
         <Route path="/apply" element={<Apply />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Foot/>
+      <Footer/>
     </Router>
   );
 }
