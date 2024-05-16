@@ -1,0 +1,208 @@
+.footer-main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background-color: aqua;
+    padding:3rem;
+    color: white;
+    background-color: #374758;
+    gap: 5rem;
+}
+
+.footer-main-left
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 1.4rem;
+    flex-direction: column;
+    width: 33%;
+}
+
+
+
+.footer-main-left-top
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-logo-title
+{
+    width: 80%;
+}
+
+.quote-writer
+{
+font-style: italic;
+padding-top: 6px;
+font-weight: 600;
+}
+
+.footer-icon-img img
+{
+    height: 150px;
+    border-radius: 50%;
+    width: auto;
+}
+
+.followus-heading
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer-main-left-buttom-socialmediaicon
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.8rem;
+}
+
+.footer-main-left-buttom
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.footer-social-icon
+{
+    background-color: white;
+    border-radius: 50%;
+    padding:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-social-icon img
+{
+    height: 25px;
+    width: auto;
+    filter: invert(1);
+}
+
+.footer-main-center
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+    width: 33%;
+}
+
+.footer-main-center-heading
+{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.footer-main-center-address
+{
+    width: 80%;
+}
+
+.footer-main-center-phoneno
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.3rem;
+    padding-top: 1.5rem;
+}
+
+.phone-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-img img
+{
+    height: 20px;
+    width: auto;
+}
+
+.footer-main-center-email
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 1.5rem;
+}
+
+.footer-main-center-email-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.email-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-img img
+{
+    height: 20px;
+    width: auto;
+}
+
+.footer-main-right
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.footer-main-right-quicklink-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-main-right-heading
+{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.footer-main-right-quick-link
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-main-right-teamquote
+{
+    font-size: 2rem;
+    font-weight: 700;
+}
