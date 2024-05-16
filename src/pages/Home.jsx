@@ -1,8 +1,13 @@
 import React from 'react'
-
+import Carousal from '../components/Home_carousal'
+import Card from '../components/Card'
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Carousal/>
+      <Card/>
+
+    </div>
   )
 }
 
