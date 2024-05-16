@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import "./style.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
+import { Autoplay,Pagination, Navigation } from "swiper/modules";
 
 export default function App() {
   return (
@@ -20,8 +20,12 @@ export default function App() {
           type: "fraction",
           dynamicBullets: true,
         }}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay,Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
