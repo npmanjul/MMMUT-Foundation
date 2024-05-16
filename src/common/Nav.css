@@ -25,23 +25,31 @@ height: 10rem;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
    
 }
 .Nav_link{
     display: flex;
-    justify-content: left;
+    padding: 10px;
+
+    justify-content: right;
+    background-color: #374758;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 }
+.Nav_link a{
+    color: white;
+
+}
 .Nav_link a:hover{
-    color: rgb(94 94 74);
+    background: white;
+    color: rgb(0, 0, 0);
    
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    /* border-bottom: 1px solid black;
+    border-top: 1px solid black; */
+    /* padding-bottom: 5px;
+    padding-top: 5px; */
     transition: .44s ease;
   
 }
@@ -80,32 +88,36 @@ height: 10rem;
     display: flex;
     justify-content: space-evenly;
     width: 30%;
+    align-items: center;
 
 }
 .Nav_img img{
     border-radius: 50%;
-    
+
 
 }
 .Nav_txt{
    font-family: 'Times New Roman', Times, serif;
    font-weight: 200;
+   font-size: 23px;
+   text-align: center;
    
 }
 .Nav_txt h1{
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     font-weight: 700;
-    margin: 1rem 0rem;
-}
-.Nav_txt h2{
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 1rem 0rem;
+    text-align: center;
+ 
 }
 .Nav_txt h3{
+ 
+    font-weight: 600;
+    
+}
+.Nav_txt h4{
     font-size: 1rem;
     font-weight: 600;
-    margin: 1rem 0rem;
+    
 }
 .Nav_link a{
     padding: 0px 10px;

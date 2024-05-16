@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div>
       <div className="Nav">
-      <div className="Nav_marquee">
+        {/* <div className="Nav_marquee">
           <marquee behavior="sliding" direction="left">
             NEW SERVICES OPEN SOON
           </marquee>
@@ -42,34 +42,34 @@ const Nav = () => {
                 alt=""
               />
             </a>
-
           </div>
-        </div>
-        <div className="Nav_mid">
-          <div className="Nav_img">
-              <img
-                src="https://th.bing.com/th/id/R.03d002c0c9cce38e728151b3e44ef9d3?rik=GvxKdgfBtY%2bB9A&riu=http%3a%2f%2fwww.nsut.ac.in%2fnsutiif%2fimg%2fnsutiif_logo.jpeg&ehk=pH%2bsFwDKUzZc%2b%2fShSub5B%2bnsPayqF7r7xZCweSF9U%2bw%3d&risl=&pid=ImgRaw&r=0"
-                alt=""
-              />
-            <img
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Netaji_Subhas_University_of_Technology.svg/640px-Netaji_Subhas_University_of_Technology.svg.png"
-              alt=""
-            />
-          </div>
-
-          <div className="Nav_txt">
-            <h1>NETAJI SUBHAS UNIVERSITY OF TECHNOLOGY</h1>
-            <h2>Incubation and Innovation Foundation</h2>
-            <h4>Azad Hind Fauj Marg, Sector-3, Dwarka, New Delhi-110078</h4>
-          </div>
-        </div>
-        
+        </div> */}
         <div className="Nav_link">
           <Link to="/">Home</Link>
           <Link to="/startup">Startup</Link>
           <Link to="/about">AboutUs</Link>
           <Link to="/apply">Apply</Link>
           <Link to="/contact">ContactUs</Link>
+        </div>
+        <div className="Nav_mid">
+          <div className="Nav_img">
+            <img
+              src="https://th.bing.com/th/id/R.03d002c0c9cce38e728151b3e44ef9d3?rik=GvxKdgfBtY%2bB9A&riu=http%3a%2f%2fwww.nsut.ac.in%2fnsutiif%2fimg%2fnsutiif_logo.jpeg&ehk=pH%2bsFwDKUzZc%2b%2fShSub5B%2bnsPayqF7r7xZCweSF9U%2bw%3d&risl=&pid=ImgRaw&r=0"
+              alt=""
+            />
+          </div>
+
+          <div className="Nav_txt">
+            <h1>NETAJI SUBHAS UNIVERSITY OF TECHNOLOGY</h1>
+            <h3>Incubation and Innovation Foundation</h3>
+            <h4>Azad Hind Fauj Marg, Sector-3, Dwarka, New Delhi-110078</h4>
+          </div>
+          <div className="Nav_img">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Netaji_Subhas_University_of_Technology.svg/640px-Netaji_Subhas_University_of_Technology.svg.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -18,6 +18,7 @@ export default function App() {
       <Swiper
         pagination={{
           type: "fraction",
+          dynamicBullets: true,
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
@@ -27,13 +28,13 @@ export default function App() {
           <img src="/img/homepagepic1.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/homepagepic2.jpg" alt="" />
+          <img src="/img/Homepagepic2.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="/img/homepagepic3.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/homepagepic4.jpg" alt="" />
+          <img src="/img/Homepagepic4.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="/img/homepagepic6.jpeg" alt="" />

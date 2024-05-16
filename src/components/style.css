@@ -23,4 +23,37 @@
     height: 100%;
     object-fit: cover;
   }
-  
+  .cont_img img{
+    width: auto;
+    padding: 0px 5rem;
+    height:15rem;
+  }
+  .cont_base{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .cont{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+  }
+  .cont_title{
+    text-align: center;
+    font-size:40px;
+    font-family: math;
+    color: rgb(50, 48, 48);
+  }
+  .cont_txt{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    align-items: center;
+  }
+  .cont_txt p{
+    text-align: center;
+    width: 50%;
+  }
