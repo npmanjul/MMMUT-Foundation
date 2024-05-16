@@ -25,13 +25,14 @@
   }
   .cont_img img{
     width: auto;
-    padding: 0px 5rem;
-    height:15rem;
+    height:18rem;
+    border-radius: 15px;
   }
   .cont_base{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem 8rem;
   }
   .cont{
     display: block;
@@ -51,9 +52,16 @@
     justify-content: center;
     font-family: sans-serif;
     font-weight: 600;
-    align-items: center;
+    align-items: start;
+    /* padding: 2rem 0; */
+  }
+
+  .cont_txt_bold
+  {
+    font-weight: 700;
   }
   .cont_txt p{
-    text-align: center;
-    width: 50%;
+    width: 90%;
+    text-align: justify;
+    font-size: 20px;
   }

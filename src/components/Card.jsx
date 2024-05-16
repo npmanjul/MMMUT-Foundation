@@ -13,7 +13,7 @@ const Card = () => {
           </div>
           <div className="cont_txt">
             <p>
-              NSUT INCUBATION & INNOVATION FOUNDATION (NSUT-IIF) a section 8
+              <span className="cont_txt_bold">NSUT INCUBATION & INNOVATION FOUNDATION (NSUT-IIF)</span> a section 8
               company as per The Companies Act-2013 having its registered office
               at Netaji Subhas University of Technology, Azad Hind Fauz Marg,
               Sector 3, Dwarka New Delhi, was opened to incubate startups of
