@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import "./Nav.css";
 
 const Nav = () => {
+
   return (
     <div>
       <div className="Nav">
@@ -44,13 +45,7 @@ const Nav = () => {
             </a>
           </div>
         </div> */}
-        <div className="Nav_link">
-          <Link to="/">Home</Link>
-          <Link to="/startup">Startup</Link>
-          <Link to="/about">AboutUs</Link>
-          <Link to="/apply">Apply</Link>
-          <Link to="/contact">ContactUs</Link>
-        </div>
+      
         <div className="Nav_mid">
           <div className="Nav_img">
             <img
@@ -67,10 +62,19 @@ const Nav = () => {
           <div className="Nav_img">
             <img
               src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Netaji_Subhas_University_of_Technology.svg/640px-Netaji_Subhas_University_of_Technology.svg.png"
-              alt=""
             />
           </div>
         </div>
+
+  
+       <div className="Nav_link menu3" >
+          <Link to="/" >Home</Link>
+          <Link to="/startup">Startup</Link>
+          <Link to="/about">AboutUs</Link>
+          <Link to="/apply">Apply</Link>
+          <Link to="/contact">ContactUs</Link>
+        </div>
+
       </div>
     </div>
   );

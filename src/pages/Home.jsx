@@ -15,9 +15,7 @@ const Home = () => {
       <Event/>
       <Achieve/>
       <Offer/>
-      
       <Form/>
-
     </div>
   )
 }

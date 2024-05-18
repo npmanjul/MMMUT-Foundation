@@ -34,6 +34,9 @@
     align-items: center;
     margin: 3rem 0px;
   }
+
+
+  
   .cont_gallery{
     display: flex;
     flex-wrap: wrap;
@@ -116,3 +119,6 @@ filter: contrast(0.5);
     align-items: center;
     margin: 0px 1rem;
   }
+
+
+

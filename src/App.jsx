@@ -10,12 +10,14 @@ import Contact from './pages/Contact';
 
 import './App.css'
 import Footer from './common/Foot'
+import Blank from './components/Blank';
 
 
 function App() {
   return (
     <Router>
       <Nav />
+      {/* <Blank/> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/startup" element={<Startup />} />
