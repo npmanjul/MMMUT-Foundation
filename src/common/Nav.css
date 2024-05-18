@@ -8,11 +8,22 @@
 }
 
 .Nav {
+    
     width: 100%;
     background-color: white; 
     overflow: hidden;
 }
-
+.Nav {
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
 .Nav_social img {
     width: auto;
     height: 2rem;
