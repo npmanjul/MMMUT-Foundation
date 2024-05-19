@@ -1,42 +1,5 @@
 
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .cont_img img{
-    width: auto;
-    padding: 0px 5rem;
-    height:15rem;
-  }
-  .cont_base{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 3rem 0px;
-  }
-
-
-  
   .cont_gallery{
     display: flex;
     flex-wrap: wrap;
@@ -50,30 +13,11 @@
   .event{
    margin: 3rem 0px;
   }
-  .cont{
-    display: block;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    padding: 2rem;
-  }
-  .cont_title{
-    text-align: center;
-    font-size:40px;
-    font-family: math;
-    color: rgb(50, 48, 48);
-  }
-  .cont_txt{
-    display: flex;
-    justify-content: center;
-    font-family: sans-serif;
-    font-weight: 600;
-    align-items: center;
-  }
-  .cont_txt p{
-    text-align: center;
-    width: 50%;
-  }
+ 
+
+
+
+
   .icon img{
     width: auto;
     height: 10rem;
@@ -93,32 +37,11 @@
     margin: 1rem;
     border: 1px solid gray;
    padding:2rem;
-    
-    
   }
 
   .icony img{
 
 filter: contrast(0.5);
   }
-  .achieve_title h1{
-    text-align: center;
-  }
 
-  .achieve{
-    width: 100%;
-
-  }
-  .achieve_title{
-    margin-top: 3rem ;
-  }
-  .icon .txt{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 1rem;
-  }
-
-
-
+  
