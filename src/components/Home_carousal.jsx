@@ -31,26 +31,26 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/img/homepagepic1.png" alt="" />
+          <img src="/img/img7.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/Homepagepic2.jpg" alt="" />
+          <img src="/img/img11.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/homepagepic3.jpg" alt="" />
+          <img src="/img/img6.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/Homepagepic4.jpg" alt="" />
+          <img src="/img/img4.jpg" alt="" />
+        </SwiperSlide>
+        {/* <SwiperSlide>
+          <img src="/img/img5.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/homepagepic6.jpeg" alt="" />
+          <img src="/img/img6.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/homepagepic7.jpeg" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/img/homepagepic8.jpeg" alt="" />
-        </SwiperSlide>
+          <img src="/img/img1.jpg" alt="" />
+        </SwiperSlide> */}
       </Swiper>
     </>
   );

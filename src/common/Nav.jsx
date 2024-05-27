@@ -72,19 +72,20 @@ const Nav = () => {
       <div className="Nav_mid">
         <div className="Nav_img">
           <img
-            src="https://th.bing.com/th/id/R.03d002c0c9cce38e728151b3e44ef9d3?rik=GvxKdgfBtY%2bB9A&riu=http%3a%2f%2fwww.nsut.ac.in%2fnsutiif%2fimg%2fnsutiif_logo.jpeg&ehk=pH%2bsFwDKUzZc%2b%2fShSub5B%2bnsPayqF7r7xZCweSF9U%2bw%3d&risl=&pid=ImgRaw&r=0"
+            src="img/mmmut_logo.png"
             alt="NSUT IIF Logo"
           />
         </div>
 
         <div className="Nav_txt">
-          <h1>NETAJI SUBHAS UNIVERSITY OF TECHNOLOGY</h1>
-          <h3>Incubation and Innovation Foundation</h3>
-          <h4>Azad Hind Fauj Marg, Sector-3, Dwarka, New Delhi-110078</h4>
+          <h1>MADAN MOHAN MALAVIYA UNIVERSITY OF TECHNOLOGY</h1>
+          <h2>मदन मोहन मालवीय प्रौद्योगिकी विश्वविद्यालय, गोरखपुर, उत्तर प्रदेश</h2>
+          <h3>INSTITUTIONS INNOVATION COUNCIL</h3>
+          {/* <h6>GORAKHPUR UP INDIA</h6> */}
         </div>
         <div className="Nav_img">
           <img
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Netaji_Subhas_University_of_Technology.svg/640px-Netaji_Subhas_University_of_Technology.svg.png"
+          src="img/logo.png"
             alt="NSUT Logo"
           />
         </div>
