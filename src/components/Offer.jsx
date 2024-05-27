@@ -16,7 +16,6 @@ const achievements = [
   {
     id: 3,
     image: "imgy/consultation.png",
-
     text: "Acdemic Support",
   },
   {

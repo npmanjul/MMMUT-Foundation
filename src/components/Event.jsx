@@ -10,7 +10,6 @@ const images = [
     "/img/homepagepic9.jpg",
     "/img/homepagepic9.jpg",
     "/img/homepagepic9.jpg"
-    
 ];
 
 function Event() {
