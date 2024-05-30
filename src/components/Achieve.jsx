@@ -1,40 +1,47 @@
 import React from "react";
 import './archieve.css';
 
+import startup from '../assets/startup.png';
+import Entrepreneur from '../assets/Entrepreneur.png';
+import Funding from '../assets/funding.png';
+import Jobcreation from '../assets/job creation.png';
+import Graduated from '../assets/graduate.png';
+import valuation from '../assets/valuation.png'
+
 const achievements = [
   {
     id: 1,
-    image: "gif/firework.gif",
+    image: startup,
     number: "45+",
     text: "Startup Incubated",
   },
   {
     id: 2,
-    image: "gif/avatar.gif",
+    image: Entrepreneur,
     number: "500+",
     text: "Entrepreneur Engaged",
   },
   {
     id: 3,
-    image: "gif/savingpig.gif",
+    image: Funding,
     number: "18Cr+",
     text: "Fund Raised",
   },
   {
     id: 4,
-    image: "gif/target.gif",
+    image: Jobcreation ,
     number: "150+",
     text: "Job Created",
   },
   {
     id: 5,
-    image: "gif/book.gif",
+    image: Graduated,
     number: "12+",
     text: "Graduated",
   },
   {
     id: 6,
-    image: "gif/chart.gif",
+    image: valuation,
     number: "50Cr+",
     text: "Valuation",
   },
@@ -50,7 +57,7 @@ const Achieve = () => {
         <div className="achieve_icons">
           {achievements.map((achievement) => (
             <div key={achievement.id} className="icon">
-              <img src={achievement.image} alt="" />
+              <img src={achievement.image} alt="icon" />
               <div className="txt">
                 <h2>{achievement.number}</h2>
                 <h3>{achievement.text}</h3>

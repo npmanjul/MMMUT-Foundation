@@ -2,6 +2,8 @@
 
   .cont_gallery{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 4rem;
     
@@ -9,39 +11,19 @@
   .cont_gallery img{
     width: auto;
     height: 10rem;
+    border-radius: 10px;
   }
   .event{
    margin: 3rem 0px;
+  }
+
+  .cont_title h3
+  {
+    font-size: 3.5rem;
   }
  
 
 
 
-
-  .icon img{
-    width: auto;
-    height: 10rem;
-
-  }
-  .achieve_icons{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    width: 100%;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    
-    margin: 2rem 0px;
-  }
-  .icon{
-    display: flex;
-    margin: 1rem;
-    border: 1px solid gray;
-   padding:2rem;
-  }
-
-  .icony img{
-
-filter: contrast(0.5);
-  }
 
   

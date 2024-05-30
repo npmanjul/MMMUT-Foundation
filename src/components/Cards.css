@@ -1,9 +1,9 @@
 .cont{
-    display: block;
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     width: 100%;
-    padding: 2rem;
   }
 
 .cont_img img{
@@ -20,9 +20,10 @@
  
   .cont_title{
     text-align: center;
-    font-size:40px;
+    font-size:2.5rem;
     font-family: math;
-    color: rgb(50, 48, 48);
+    color: rgb(0, 0, 0);
+    padding: 2rem 0;
   }
   .cont_txt{
     display: flex;

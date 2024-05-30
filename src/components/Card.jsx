@@ -2,7 +2,7 @@ import React from "react";
 import "./Cards.css";
 const Card = () => {
   return (
-    <div>
+    <>
       <div className="cont">
         <div className="cont_title">
           <h1>MMMUT IIC</h1>
@@ -23,7 +23,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
