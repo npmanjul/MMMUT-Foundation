@@ -17,7 +17,7 @@ const Foot = () => {
         <div className='footer-main-left'>
 
           <div className='footer-main-left-top'>
-            <div className='footer-icon-img'><img src={footericon} /></div>
+            <div className='footer-icon-img'><img src="./img/mmmut_logo.png" /></div>
             <div className='footer-logo-title'>"Creativity is thinking up new things. Innovation is doing new things." <div className='quote-writer'>- Theodore Levitt</div></div>
           </div>
 
@@ -37,20 +37,20 @@ const Foot = () => {
             Get In Touch
           </div>
           <div className='footer-main-center-address'>
-            Room 410, Library Block 4th floor, NSUT Campus, Azad Hind Fauz Marg, Dwarka-3, New Delhi-110078
+          मदन मोहन मालवीय प्रौद्योगिकी विश्वविद्यालय, गोरखपुर, उत्तर प्रदेश
           </div>
           <div className='footer-main-center-phoneno'>
             <div className='phone-img'><img src={phoneNo} /></div>
-            <div>+91 99717 23799</div>
+            <div>+91 92355 01654</div>
           </div>
           <div className='footer-main-center-email' >
             <div className='footer-main-center-email-box'>
               <div className='email-img'><img src={emailaddress} /></div>
-              <div>connect.nsutiif@nsut.ac.in</div>
+              <div>connect.mmmut.ac.in</div>
             </div>
             <div className='footer-main-center-email-box'>
               <div className='email-img'><img src={emailaddress} /></div>
-              <div>support.nsutiif@nsut.ac.in</div>
+              <div>support.mmmut.ac.in</div>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Foot = () => {
             </div>
           </div>
           <div className='footer-main-right-teamquote'>
-            Creative Team <br/> Behind NSUT IIF
+            Creative Team <br/> Behind MMMUT FOUNDATION
           </div>
         </div>
       </div>

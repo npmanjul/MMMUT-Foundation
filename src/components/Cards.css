@@ -8,7 +8,7 @@
 
 .cont_img img{
     width: auto;
-    height:18rem;
+    height:25rem;
     border-radius: 15px;
   }
   .cont_base{
@@ -30,16 +30,23 @@
     justify-content: center;
     font-family: sans-serif;
     font-weight: 600;
-    align-items: start;
+    height: 40vh;
+    font-size: 45px;
+    align-items: center;
     /* padding: 2rem 0; */
   }
 
   .cont_txt_bold
   {
     font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .cont_txt p{
     width: 90%;
     text-align: justify;
-    font-size: 20px;
+    font-size: 30px;
   }

@@ -21,8 +21,14 @@
   margin: 2rem;
   height: 200px;
   padding: 2rem;
-  background-color: aqua;
+ 
   border-radius: 10px;
+}
+.icony{
+  background-color: rgb(199, 246, 170);
+}
+.icons{
+  background-color: rgb(183, 240, 240);
 }
 
 .icony img {

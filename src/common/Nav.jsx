@@ -80,7 +80,7 @@ const Nav = () => {
         <div className="Nav_txt">
           <h1>MADAN MOHAN MALAVIYA UNIVERSITY OF TECHNOLOGY</h1>
           <h2>मदन मोहन मालवीय प्रौद्योगिकी विश्वविद्यालय, गोरखपुर, उत्तर प्रदेश</h2>
-          <h3>INSTITUTIONS INNOVATION COUNCIL</h3>
+          <h3>MMMUT FOUNDATION</h3>
           {/* <h6>GORAKHPUR UP INDIA</h6> */}
         </div>
         <div className="Nav_img">

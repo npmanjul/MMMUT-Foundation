@@ -1,5 +1,13 @@
+.mySwiper img{
+  width:75%;
+  object-fit: contain;
 
-
+  height: 100%;
+}
+.mySwiper{
+  width: 100%;
+  height: 10vh;
+}
   .cont_gallery{
     display: flex;
     justify-content: center;
@@ -8,10 +16,45 @@
     gap: 4rem;
     
   }
-  .cont_gallery img{
+  .div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: rgb(203, 166, 238);
     width: auto;
-    height: 10rem;
     border-radius: 10px;
+    padding: 3rem;
+  }
+  #simg{
+    width: 8rem;
+    border-radius: 5%;
+    height: 8rem;
+    margin-right: 1rem;
+  }
+  .startupimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin: 3rem;
+
+  }
+  .startupsimg img{
+    width: 20%;
+    height: 20%;
+
+  }
+  .cont_gallery img{
+    width: 100%;
+    height: 25rem;
+    border-radius: 10px;
+  }
+
+  .cont_gallery img:hover{
+    transform: scale(1.1);
+    transition: .44s ease;
   }
   .event{
    margin: 3rem 0px;

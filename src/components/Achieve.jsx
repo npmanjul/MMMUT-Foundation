@@ -12,37 +12,37 @@ const achievements = [
   {
     id: 1,
     image: startup,
-    number: "45+",
+    number: "",
     text: "Startup Incubated",
   },
   {
     id: 2,
     image: Entrepreneur,
-    number: "500+",
+    number: "",
     text: "Entrepreneur Engaged",
   },
   {
     id: 3,
     image: Funding,
-    number: "18Cr+",
+    number: "",
     text: "Fund Raised",
   },
   {
     id: 4,
     image: Jobcreation ,
-    number: "150+",
+    number: "",
     text: "Job Created",
   },
   {
     id: 5,
     image: Graduated,
-    number: "12+",
+    number: "",
     text: "Graduated",
   },
   {
     id: 6,
     image: valuation,
-    number: "50Cr+",
+    number: "",
     text: "Valuation",
   },
 ];
@@ -52,11 +52,11 @@ const Achieve = () => {
     <div>
       <div className="achieve">
         <div className="achieve_title">
-          <h1>OUR ACHIEVEMENTS</h1>
+          <h1>OUR GOALS</h1>
         </div>
         <div className="achieve_icons">
           {achievements.map((achievement) => (
-            <div key={achievement.id} className="icon">
+            <div key={achievement.id} className="icon icons">
               <img src={achievement.image} alt="icon" />
               <div className="txt">
                 <h2>{achievement.number}</h2>

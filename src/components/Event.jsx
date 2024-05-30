@@ -14,20 +14,25 @@ import "swiper/css/autoplay";
 // import required modules
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 const images = [
-  "/img/homepagepic9.jpg",
-  "/img/homepagepic9.jpg",
-  "/img/homepagepic9.jpg",
-  "/img/homepagepic9.jpg",
-  "/img/homepagepic9.jpg",
-  "/img/homepagepic9.jpg",
-  "/img/homepagepic9.jpg",
-  "/img/homepagepic9.jpg",
+  "/img/photo1.jpg",
+  "/img/photo2.jpg",
+  "/img/photo3.jpg",
+  "/img/photo4.jpg",
+  // "/img/photo5.jpg",
+  "/img/photo6.jpg",
+  "/img/photo7.jpg",
+  "/img/photo8.jpg",
+  "/img/photo9.jpg",
+  "/img/photo10.jpg",
+  "/img/photo11.jpg",
+  "/img/photo13.jpg",
+  "/img/photo14.jpg",
 ];
 
 function Event() {
   return (
     <div>
-      <div className="cont event">
+      {/* <div className="cont event">
         <div className="cont_title">
           <h3>EVENTS</h3>
         </div>
@@ -58,7 +63,20 @@ function Event() {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+      </div> */}
+
+<div className="cont event">
+                <div className="cont_title">
+                    <h3>EVENTS</h3>
+                </div>
+                <div className="cont_gallery">
+                    {images.map((image, index) => (
+                        <div key={index} className="card">
+                            <img src={image} alt={`Image ${index + 1}`} />
+                        </div>
+                    ))}
+                </div>
+            </div>
     </div>
   );
 }
