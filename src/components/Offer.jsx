@@ -50,7 +50,7 @@ const Offer = () => {
             <div key={achievement.id} className="icon icony">
               <img src={achievement.image} alt="" />
               <div className="txt">
-            <h3>{achievement.text}</h3>
+                <h3>{achievement.text}</h3>
               </div>
             </div>
           ))}

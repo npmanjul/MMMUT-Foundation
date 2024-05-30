@@ -12,11 +12,11 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 
 // import required modules
-import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { Autoplay,EffectFade, Navigation, Pagination } from 'swiper/modules';
+
 const images = [
   "/img/homepagepic9.jpg",
-  "/img/homepagepic9.jpg",
-  "/img/homepagepic9.jpg",
+  "/img/img4.jpg",
   "/img/homepagepic9.jpg",
   "/img/homepagepic9.jpg",
   "/img/homepagepic9.jpg",
@@ -33,22 +33,24 @@ function Event() {
         </div>
 
         <Swiper
-          style={{
+         style={{
             "--swiper-navigation-color": "#fff",
             "--swiper-pagination-color": "#fff",
           }}
-          lazy={true}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
-          }}
-          modules={[Pagination, Navigation, Autoplay]}
-          className="mySwiper"
-        >
+        spaceBetween={700}
+        effect={'fade'}
+        loop={true}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
+        // navigation={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Autoplay,EffectFade, Navigation, Pagination]}
+        className="mySwiper"
+      >
           {images.map((image, index) => (
             <SwiperSlide key={index}>
               <>

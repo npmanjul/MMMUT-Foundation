@@ -10,13 +10,13 @@ import 'swiper/css/pagination';
 
 import './style.css';
 
-// import required modules
 import { Autoplay,EffectFade, Navigation, Pagination } from 'swiper/modules';
 
 export default function App() {
   return (
     <>
-         <Swiper
+    <div className="carousal-container">
+    <Swiper
         spaceBetween={700}
         effect={'fade'}
         loop={true}
@@ -53,6 +53,7 @@ export default function App() {
           <img src="/img/img1.jpg" alt="" />
         </SwiperSlide> */}
       </Swiper>
+    </div>
     </>
   );
 }

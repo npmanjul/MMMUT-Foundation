@@ -23,10 +23,11 @@
   padding: 2rem;
   background-color: aqua;
   border-radius: 10px;
+  gap: 2rem;
 }
 
-.icony img {
-  filter: contrast(0.5);
+.icony {
+ background-color: #c7f6aa;
 }
 
 

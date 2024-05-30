@@ -1,8 +1,11 @@
 import React from 'react'
+import Contactbox from '../components/Contactbox'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+     <Contactbox/>
+    </>
   )
 }
 

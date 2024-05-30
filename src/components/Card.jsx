@@ -5,7 +5,7 @@ const Card = () => {
     <>
       <div className="cont">
         <div className="cont_title">
-          <h1>MMMUT IIC</h1>
+          <h1>MMMUT FOUNDATION</h1>
         </div>
         <div className="cont_base">
           <div className="cont_img">
@@ -13,7 +13,7 @@ const Card = () => {
           </div>
           <div className="cont_txt">
             <p>
-              <span className="cont_txt_bold">IIC INSTITUTIONS INNOVATION COUNCIL (MMMUT-IIC)</span> a section 8
+              <span className="cont_txt_bold">MMMUT FOUNDATION</span> a section 8
               company as per The Companies Act-2013 having its registered office
               at Madan Mohan Malaviya University of Technology, Gorakhpur,Uttar Pradesh, was opened to incubate startups of
               MMMUT students, alumni, faculty of MMMUT, any other incubatee under
