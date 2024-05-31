@@ -202,6 +202,8 @@
     }
     .hamburger{
         float: right;
+        font-size: 27px;
+        font-weight: 900;
     }
     .Nav_link a{
         font-size: 30px;
