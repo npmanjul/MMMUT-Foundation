@@ -1,0 +1,71 @@
+.boardmember-container
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boardmember-heading
+{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.boardmember-area
+{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.boardmember-profile-cards
+{
+    height: 300px;
+    width: 270px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.157) 0px 0px 10px -2.5px;
+    gap: 1rem;
+}
+
+.boardmember-img img
+{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+}
+
+.boardmember-detail
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boardmember-name
+{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.boardmember-designation
+{
+    font-size: 1.1rem;
+    font-weight: 600;
+}

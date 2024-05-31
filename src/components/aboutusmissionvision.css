@@ -1,0 +1,53 @@
+.aboutusmissionvision
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+
+.Aboutusmissionvision-mission
+{
+    height: auto;
+    width: 70%;
+    background-color: #374758;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.Aboutusmissionvision-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.Aboutusmissionvision-logo img
+{
+    height: 120px;
+}
+
+.Aboutusmissionvision-title
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.Aboutusmissionvision-detail
+{
+    font-size: 1.3rem;
+    width: 80%;
+    font-weight: 600;
+    color: white;
+    text-align: justify;
+}

@@ -1,5 +1,20 @@
 .aboutushero-section
 {
     height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../assets/Aboutus/aboutusbg.jpg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.aboutushero-section p
+{
+    color: white;
+    font-size: 4rem ;
+    font-weight: 700;
 }

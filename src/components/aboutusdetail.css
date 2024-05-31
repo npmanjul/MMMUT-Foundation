@@ -1,0 +1,32 @@
+.aboutusdetail
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.aboutusdetail-heading
+{
+    font-size: 3rem;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0
+}
+
+.aboutusdetail-contant
+{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 22px;
+    line-height: 29px;
+}
