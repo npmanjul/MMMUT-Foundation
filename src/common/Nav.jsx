@@ -58,7 +58,7 @@ const Nav = () => {
           <h2>
             मदन मोहन मालवीय प्रौद्योगिकी विश्वविद्यालय, गोरखपुर, उत्तर प्रदेश
           </h2>
-          <h3>INSTITUTIONS INNOVATION COUNCIL</h3>
+          <h3>MMMUT FOUNDATION</h3>
         </div>
         <div className="Nav_img">
           <img src="img/logo.png" alt="NSUT Logo" />
