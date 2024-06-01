@@ -52,3 +52,16 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width:720px) {
+  .achieve_icons{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:720px) {
+  .achieve_title h1{
+    font-size: 2.5rem
+  }
+}

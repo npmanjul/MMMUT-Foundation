@@ -1,5 +1,4 @@
-.boardmember-container
-{
+.boardmember-container {
     height: auto;
     width: 100%;
     display: flex;
@@ -8,8 +7,7 @@
     flex-direction: column;
 }
 
-.boardmember-heading
-{
+.boardmember-heading {
     width: 100%;
     text-align: center;
     font-size: 3rem;
@@ -17,8 +15,7 @@
     padding: 1rem;
 }
 
-.boardmember-area
-{
+.boardmember-area {
     width: 80%;
     height: auto;
     display: flex;
@@ -29,8 +26,7 @@
     flex-wrap: wrap;
 }
 
-.boardmember-profile-cards
-{
+.boardmember-profile-cards {
     height: 300px;
     width: 270px;
     background-color: white;
@@ -43,29 +39,38 @@
     gap: 1rem;
 }
 
-.boardmember-img img
-{
+.boardmember-img img {
     height: 160px;
     width: 160px;
     border-radius: 100%;
 }
 
-.boardmember-detail
-{
+.boardmember-detail {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.boardmember-name
-{
+.boardmember-name {
     font-size: 1.4rem;
     font-weight: 700;
 }
 
-.boardmember-designation
-{
+.boardmember-designation {
     font-size: 1.1rem;
     font-weight: 600;
+}
+
+@media (max-width:600px) {
+    .boardmember-heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:450px) {
+    .boardmember-area {
+        width: 100%;
+       
+    }
 }

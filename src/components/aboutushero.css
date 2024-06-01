@@ -17,4 +17,37 @@
     color: white;
     font-size: 4rem ;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width:1000px) {
+    .aboutushero-section p
+    {
+        font-size: 3.5rem ;
+    }
+}
+
+@media (max-width:750px) {
+    .aboutushero-section p
+    {
+        font-size: 3rem ;
+    }
+}
+
+@media (max-width:650px) {
+
+    .aboutushero-section p
+    {
+        font-size: 2.5rem ;
+    }
+}
+
+@media (max-width:350px) {
+    .aboutushero-section p
+    {
+        font-size: 2rem ;
+    }
 }

@@ -22,7 +22,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 10;
   }
 .Nav_social img {
     width: auto;
@@ -160,7 +160,55 @@
     width: 100%;
     padding-top: 0.5rem;
 }
-
-@media (max-width:1400px) {
-    
+.hamburger{
+    display: none;
+}
+@media (max-width:720px) {
+    .Nav_mid{
+        display: block;
+        flex-direction: column-reverse;
+    }
+    .Nav_txt h1,h3 , .mmmlogo{
+        display: none;
+    }
+    .Nav{
+        display: flex;
+    flex-direction: column-reverse;
+    }
+    .Nav_link {
+        display: flex;
+        /* flex-direction: column; */
+        height: 100vh;
+        z-index: 11;
+        top: 0px;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* display: none; */
+        left: -100%;
+        transition: .60s ease-in-out;
+        
+    }
+    .menu-open{
+        /* display: flex; */
+        left: 0%;
+        
+    }
+    .links{
+     
+        display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    text-align: center;
+    }
+    .hamburger{
+        float: right;
+        font-size: 27px;
+        display:flex;
+        font-weight: 900;
+    }
+    .Nav_link a{
+        font-size: 30px;
+    } 
 }

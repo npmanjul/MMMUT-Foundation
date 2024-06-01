@@ -4,6 +4,7 @@ import Aboutusdetail from '../components/Aboutusdetail.jsx';
 import Aboutusquote from '../components/Aboutusquote.jsx';
 import Aboutusmissionvision from '../components/Aboutusmissionvision.jsx';
 import Boardmembers from '../components/Boardmembers.jsx';
+import './about.css';
 
 const About = () => {
   return (
