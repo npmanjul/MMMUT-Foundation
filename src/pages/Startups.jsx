@@ -9,6 +9,7 @@ const Startups = () => {
     <div className='startup-heading'>
     Startup's
     </div>
+    
       <div className='startup-container'>
         <div className='startup-box'>
           <div className='startup-img'>

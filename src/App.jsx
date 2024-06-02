@@ -7,8 +7,6 @@ import Startup from './pages/Startups';
 import About from './pages/About';
 import Apply from './pages/Apply';
 import Contact from './pages/Contact';
-
-import './App.css'
 import Footer from './common/Foot'
 import Blank from './components/Blank';
 
@@ -25,7 +23,7 @@ function App() {
         <Route path="/apply" element={<Apply />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </Router>
   );
 }
