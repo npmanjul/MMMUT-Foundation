@@ -1,5 +1,4 @@
-.home-form
-{
+.home-form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,29 +8,25 @@
     width: 100%;
 }
 
-.home-form-heading
-{
+.home-form-heading {
     font-size: 2rem;
     font-weight: 700;
 }
 
-.home-form-box
-{
+.home-form-box {
     width: 50%;
 }
 
-.home-form-box form
-{
+.home-form-box form {
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
     gap: 1.2rem;
-    
+
 }
 
-.form-inputfield
-{
+.form-inputfield {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -39,15 +34,13 @@
     flex-direction: column;
 }
 
-.form-inputfield label
-{
-    font-size: .9rem;
-    padding-bottom: .3rem;
+.form-inputfield label {
+    font-size: 0.9rem;
+    padding-bottom: 0.3rem;
     padding-left: 0.3rem;
 }
 
-.form-inputfield input 
-{
+.form-inputfield input {
     width: 100%;
     height: 2.4rem;
     outline: none;
@@ -58,8 +51,7 @@
     border-radius: 10px;
 }
 
-.form-inputfield textarea
-{
+.form-inputfield textarea {
     width: 100%;
     height: 80px;
     outline: none;
@@ -71,14 +63,12 @@
     border-radius: 10px;
 }
 
-.form-button-submit
-{
+.form-button-submit {
     width: 100%;
     text-align: center;
 }
 
-.form-button-submit button
-{
+.form-button-submit button {
     height: 40px;
     width: 100px;
     font-size: 16px;
@@ -91,7 +81,39 @@
     transition: all 0.3s ease-in-out;
 }
 
-.form-button-submit button:hover
-{
+.form-button-submit button:hover {
     background-color: #374758d3;
+}
+
+
+@media (max-width:600px) {
+    .home-form-heading {
+        font-size: 1.5rem;
+    }
+
+    .home-form-box {
+        width: 70%;
+    }
+}
+
+
+
+@media (max-width:450px) {
+    .home-form-heading {
+        font-size: 1.2rem;
+    }
+
+    .home-form-box {
+        width: 80%;
+    }
+}
+
+@media (max-width:360px) {
+    .home-form-heading {
+        font-size: 1.1rem;
+    }
+
+    .home-form-box {
+        width: 85%;
+    }
 }

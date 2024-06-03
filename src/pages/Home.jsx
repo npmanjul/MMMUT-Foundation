@@ -12,9 +12,9 @@ const Home = () => {
     <div>
       <Carousal/>
       <Card/>
-      <Event/>
-      <Achieve/>
-      <Offer/>
+      {/* <Event/> */}
+      {/* <Achieve/> */}
+      {/* <Offer/> */}
       <Form/>
     </div>
   )
