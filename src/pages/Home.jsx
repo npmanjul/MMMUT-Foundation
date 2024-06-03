@@ -5,6 +5,7 @@ import Event from '../components/Event';
 import Achieve from '../components/Achieve';
 import Offer from "../components/Offer"
 import Form from '../components/Form'
+import OfferCards from '../components/OfferCards';
 
 
 const Home = () => {
@@ -14,7 +15,8 @@ const Home = () => {
       <Card/>
       {/* <Event/> */}
       {/* <Achieve/> */}
-      {/* <Offer/> */}
+      <Offer/>
+      {/* <OfferCards/> */}
       <Form/>
     </div>
   )
