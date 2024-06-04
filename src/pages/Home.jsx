@@ -13,10 +13,12 @@ const Home = () => {
     <div>
       <Carousal/>
       <Card/>
+
+
       {/* <Event/> */}
       {/* <Achieve/> */}
-      <Offer/>
-      {/* <OfferCards/> */}
+      {/* <Offer/> */}
+      <OfferCards/>
       <Form/>
     </div>
   )
