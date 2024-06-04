@@ -208,6 +208,12 @@
         display:flex;
         font-weight: 900;
     }
+    .cross{
+        color: bisque;
+        top: 2%;
+        right: 5%;
+        position: absolute;
+    }
     .Nav_link a{
         font-size: 30px;
     } 

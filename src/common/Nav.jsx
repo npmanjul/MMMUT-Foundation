@@ -73,6 +73,11 @@ const Nav = () => {
         ref={navbarRef}
       >
         <div className="links">
+       
+        <div className="hamburger cross" onClick={toggleMenu}>
+        &#9932;
+        </div>
+
           <Link to="/" onClick={toggleMenu}>Home</Link>
           <Link to="/startup" onClick={toggleMenu}>Startup</Link>
           <Link to="/about" onClick={toggleMenu}>About Us</Link>
