@@ -106,7 +106,9 @@
   .carousel-image {
     height: 200px;
   }
-
+  .slick-dots{
+    bottom: -50px;
+  }
   .carousel-image-container.active {
     transform: scale(1.1);
   }
