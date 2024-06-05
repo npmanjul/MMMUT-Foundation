@@ -15,7 +15,7 @@ const Home = () => {
       <Card/>
 
 
-      {/* <Event/> */}
+      <Event/>
       <Achieve/>
       {/* <Offer/> */}
       <OfferCards/>
