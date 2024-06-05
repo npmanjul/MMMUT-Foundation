@@ -168,7 +168,7 @@
         display: block;
         flex-direction: column-reverse;
     }
-    .Nav_txt h1,h3 , .mmmlogo{
+    .Nav_txt h1,.Nav_txt h3 , .mmmlogo{
         display: none;
     }
     .Nav{

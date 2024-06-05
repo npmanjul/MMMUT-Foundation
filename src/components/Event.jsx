@@ -25,7 +25,7 @@ const Carousel = () => {
     infinite: true,
     speed: 400,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 0,
     autoplay: true,
     autoplaySpeed: 2000,
     centerMode: true,
