@@ -1,72 +1,60 @@
 import React from "react";
-import "./style.css";
-import "./event.css";
-import { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "swiper/css/autoplay";
-
-// import required modules
-import { Autoplay,EffectFade, Navigation, Pagination } from 'swiper/modules';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./event.css"; // Import custom styles if needed
 
 const images = [
   "/img/photo1.jpg",
   "/img/photo2.jpg",
   "/img/photo3.jpg",
   "/img/photo4.jpg",
+  "/img/photo5.jpg",
   "/img/photo6.jpg",
   "/img/photo7.jpg",
   "/img/photo8.jpg",
-  "/img/photo9.jpg",
   "/img/photo11.jpg",
   "/img/photo13.jpg",
   "/img/photo14.jpg",
 ];
 
-function Event() {
-  return (
-    <div>
-      <div className="cont event">
-        <div className="cont_title">
-          <h3>EVENTS</h3>
-        </div>
+const Carousel = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 400,
+    slidesToShow: 3,
+    slidesToScroll: 0,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    centerMode: true,
+    centerPadding: "20px",
+    beforeChange: (current, next) => setCurrentIndex(next),
+  };
 
-        <Swiper
-         style={{
-            "--swiper-navigation-color": "#fff",
-            "--swiper-pagination-color": "#fff",
-          }}
-        spaceBetween={700}
-        effect={'fade'}
-        loop={true}
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-        }}
-        // navigation={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Autoplay,EffectFade, Navigation, Pagination]}
-        className="mySwiper"
-      >
-          {images.map((image, index) => (
-            <SwiperSlide key={index}>
-              <>
-                <img src={image} className="lazy" alt={`Image ${index + 1}`} loading="lazy" width={300} height={300} />
-                <div className="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-              </>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
+  const [currentIndex, setCurrentIndex] = React.useState(0);
+
+  return (
+    <div className="carousel-container">
+      <h2>Latest Events</h2>
+      <Slider {...settings}>
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className={`carousel-image-container ${
+              currentIndex === index ? "active" : "inactive"
+            }`}
+          >
+            <img
+              src={image}
+              alt={`Slide ${index}`}
+              className="carousel-image"
+            />
+          </div>
+        ))}
+      </Slider>
     </div>
   );
-}
+};
 
-export default Event;
+export default Carousel;

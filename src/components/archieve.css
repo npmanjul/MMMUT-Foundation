@@ -5,6 +5,7 @@
 
 }
 
+
 .achieve_icons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -21,10 +22,12 @@
   margin: 2rem;
   height: 200px;
   padding: 2rem;
-  background-color: aqua;
+  /* background-color: aqua; */
   border-radius: 10px;
   gap: 2rem;
 }
+
+
 
 .icony {
  background-color: #c7f6aa;
@@ -40,6 +43,8 @@
 .achieve {
   width: 100%;
   padding: 0 2rem;
+  background: #f4f5f6;
+  color: #374758;
 }
 
 .achieve_title {
@@ -50,18 +55,40 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  font-size: 27px;
 }
+@media (max-width: 768px) {
+  .achieve_icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-@media (max-width:720px) {
-  .achieve_icons{
-    display: flex;
-    flex-wrap: wrap;
+  .icon {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .icon .txt {
+    margin-top: 1rem;
+    font-size: 18px;
+  }
+  .achieve_title h1{
+    font-size: 2rem;
   }
 }
 
-@media (max-width:720px) {
-  .achieve_title h1{
-    font-size: 2.5rem
+@media (max-width: 480px) {
+  .achieve_icons {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .icon {
+    margin: 1rem;
+  }
+
+  .icon .txt {
+    font-size: 16px;
   }
 }

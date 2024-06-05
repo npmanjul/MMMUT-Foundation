@@ -15,8 +15,8 @@ const Home = () => {
       <Card/>
 
 
-      {/* <Event/> */}
-      {/* <Achieve/> */}
+      <Event/>
+      <Achieve/>
       {/* <Offer/> */}
       <OfferCards/>
       <Form/>
