@@ -8,7 +8,6 @@ import addressicon from '../assets/map-pin.png'
 const Contactbox = () => {
     return (
         <>
-            <div className='contact-container'>
                 <div className='contact-detail'>
                     <div className='contact-box'>
                         <div className='contact-icon-img'>
@@ -47,7 +46,7 @@ const Contactbox = () => {
                     </div>
                 </div>
 
-            </div>
+            
         </>
     )
 }
