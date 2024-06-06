@@ -57,10 +57,10 @@ const OfferCards = () => {
                     <div key={achievement.id} className='card-box'>
                         <article className="offer_card">
                             <header className="offer_card__thumb">
-                                <a href="#"><img src={achievement.image} /></a>
+                                <img src={achievement.image} />
                             </header>
                             <div className="offer_card__body">
-                                <h2 className="offer_card__title"><a href="#">{achievement.text}</a></h2>
+                                <h2 className="offer_card__title">{achievement.text}</h2>
                                 <p className="offer_card__description">{achievement.detail}</p>
                             </div>
                         </article>

@@ -37,7 +37,6 @@ const achievements = [
     id: 6,
     image: "imgy/experience.png",
     heading:"ok",
-
     text: "Hands on Learning Experince",
   },
 ];

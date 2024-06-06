@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import mmmutlogo from '../assets/Common/mmmut_logo.png';
+import mmmutfoundationlogo from '../assets/Common/logo.png'
 import mobilelogo from '../assets/Common/MMMUT foundation mobile logo.png';
 import menuline from '../assets/Common/menu-line.png'
 
@@ -52,7 +54,7 @@ const Nav = () => {
     <div id="navbar" className="Nav">
       <div className="Nav_mid">
         <div className="Nav_img mmmlogo">
-          <img src="img/logo.png" alt="NSUT IIF Logo" />
+          <img src={mmmutfoundationlogo} alt="MMMUT Foundation" />
         </div>
 
         <div className="Nav_txt">
@@ -61,7 +63,7 @@ const Nav = () => {
           <h3>M.M.M.U.T. FOUNDATION</h3>
         </div>
         <div className="Nav_img">
-          <img src="img/mmmut_logo.png" alt="NSUT Logo" />
+          <img src={mmmutlogo} alt="MMMUT" />
         </div>
 
       </div>

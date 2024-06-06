@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import './carousal.css'
+import './home_carousal.css'
 
 // Import Swiper styles
 import 'swiper/css';
