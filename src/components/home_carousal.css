@@ -1,5 +1,5 @@
 .carousal-container {
-  height: 75vh;
+  height: 85vh;
   width: 100%;
 }
 
@@ -28,8 +28,69 @@
   object-fit: cover;
 }
 
+@media (max-width:1600px) {
+  .carousal-container {
+    height: 80vh;
+    width: 100%;
+  }
+}
 
-@media (max-width:400px) {
+@media (max-width:1500px) {
+  .carousal-container {
+    height: 75vh;
+    width: 100%;
+  }
+}
+@media (max-width:1400px) {
+  .carousal-container {
+    height: 70vh;
+    width: 100%;
+  }
+}
+@media (max-width:1300px) {
+  .carousal-container {
+    height: 70vh;
+    width: 100%;
+  }
+}
+@media (max-width:1200px) {
+  .carousal-container {
+    height: 65vh;
+    width: 100%;
+  }
+}
+
+
+@media (max-width:1100px) {
+  .carousal-container {
+    height: 60vh;
+    width: 100%;
+  }
+}
+
+@media (max-width:1000px) {
+  .carousal-container {
+    height: 50vh;
+    width: 100%;
+  }
+}
+
+
+@media (max-width:900px) {
+  .carousal-container {
+    height: 45vh;
+    width: 100%;
+  }
+}
+
+@media (max-width:800px) {
+  .carousal-container {
+    height: 40vh;
+    width: 100%;
+  }
+}
+
+@media (max-width:500px) {
   .carousal-container {
     height: 35vh;
   }

@@ -5,7 +5,7 @@ import image2 from '../assets/Offerimgs/image2.jpg';
 import image3 from '../assets/Offerimgs/image3.jpg';
 import image4 from '../assets/Offerimgs/image4.avif';
 import image5 from '../assets/Offerimgs/image5.avif';
-import image6 from '../assets/Offerimgs/image6.png';
+import image6 from '../assets/Offerimgs/image7.png';
 
 const achievements = [
     {
