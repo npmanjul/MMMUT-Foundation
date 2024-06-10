@@ -3,7 +3,10 @@ import ContactForm from '../components/ContactForm'
 
 const Apply = () => {
   return (
-    <ContactForm/>
+    <>
+      {/* <ContactForm/> */}
+      Apply Page
+    </>
   )
 }
 
