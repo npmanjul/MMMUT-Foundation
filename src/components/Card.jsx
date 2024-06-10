@@ -13,12 +13,12 @@ const Card = () => {
           </div>
           <div className="cont_txt">
             <p>
-              <span className="cont_txt_bold">MMMUT FOUNDATION</span> a section 8
+              <span className="cont_txt_bold">MMMUT FOUNDATION</span> a Section-8
               company as per The Companies Act-2013 having its registered office
               at Madan Mohan Malaviya University of Technology, Gorakhpur,Uttar Pradesh, was opened to incubate startups of
               MMMUT students, alumni, faculty of MMMUT, any other incubatee under
-              the guidelines of Delhi Government at NSUT for two years with seed
-              money (funding) from the MMMUT-IIC.
+              the guidelines of Uttar Pradesh Government at MMMUT for two years with seed
+              money (funding) from the MMMUT Foundation.
             </p>
           </div>
         </div>

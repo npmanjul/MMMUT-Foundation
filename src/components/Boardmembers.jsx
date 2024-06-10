@@ -1,6 +1,7 @@
 import React from 'react';
 import './boardmembers.css';
 import JPSainiImage from '../assets/Aboutus/J P Saini.png';
+import SKSoniImage from '../assets/Aboutus/SK Soni.jpg'
 import JeeootSingh from '../assets/Aboutus/JeeootSingh.jpg';
 import SanjayMishra from '../assets/Aboutus/SanjayMishra.jpg';
 import jayprakash from '../assets/Aboutus/jaiprakash.jpg';
@@ -13,24 +14,29 @@ const profiles = [
         profiledesignation: "Director & VC MMMUT"
     },
     {
+        image: SKSoniImage,
+        profilename: "Prof. Sanjay Kumar Soni",
+        profiledesignation: "Board of Director"
+    },
+    {
         image: JeeootSingh,
         profilename: "Prof. Jeeoot Singh",
-        profiledesignation: "Director & VC MMMUT"
+        profiledesignation: "Board of Member"
     },
     {
         image: SanjayMishra,
         profilename: "Prof. Sanjay Mishra",
-        profiledesignation: "Director & VC MMMUT"
+        profiledesignation: "Board of Member"
     },
     {
         image: jayprakash,
         profilename: "Prof. Jay Prakash",
-        profiledesignation: "Director & VC MMMUT"
+        profiledesignation: "Board of Member"
     },
     {
         image: abhijeetmishra,
         profilename: "Prof. Abhijeet Mishra",
-        profiledesignation: "Director & VC MMMUT"
+        profiledesignation: "Board of Member"
     },
 ];
 

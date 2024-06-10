@@ -12,7 +12,7 @@ const achievements = [
         id: 1,
         image: image1,
         text: "MentorShip from Industry Expert",
-        detail: "Startups incubated at NSUT-IIF receive valuable mentorship from industry experts"
+        detail: "Startups incubated at MMMUT Foundation receive valuable mentorship from industry experts"
     },
     {
         id: 2,
@@ -24,13 +24,13 @@ const achievements = [
         id: 3,
         image: image3,
         text: "Acdemic Support",
-        detail: "NSUT IIF allows 10% attendance relaxation & enable the students to defer placements by a year or two to start their own ventures."
+        detail: "MMMUT Foundation allows 10% attendance relaxation & enable the students to defer placements by a year or two to start their own ventures."
     },
     {
         id: 4,
         image: image4,
         text: "Networking & Outreach",
-        detail: "NSUT-IIF connect student innovators with diverse professionals, entrepreneurs"
+        detail: "MMMUT Foundation connect student innovators with diverse professionals, entrepreneurs"
     },
     {
         id: 5,

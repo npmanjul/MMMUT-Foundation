@@ -55,6 +55,9 @@
 .boardmember-name {
     font-size: 1.4rem;
     font-weight: 700;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 .boardmember-designation {

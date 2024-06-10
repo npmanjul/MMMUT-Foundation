@@ -13,7 +13,7 @@ function Aboutusquote() {
             <img src={lquote} alt='comma' />
           </div>
           <div className='quote-text'>
-          Creativity is thinking up new things. Innovation is doing new things <br/> —Theodore Levitt
+          Learning gives creativity, Creativity leads to thinking, Thinking provides knowledge, Knowledge makes you great. <br/> <span className='quote-writter' >— Dr. A.P.J. Abdul Kalam</span>
           </div>
           <div className='symbole-size-r'>
             <img src={rquote} alt='comma' />
