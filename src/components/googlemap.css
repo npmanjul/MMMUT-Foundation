@@ -1,21 +1,29 @@
 .iframe-box
 {
-    width: 420px;
-    height:540px;
+    width: 80%;
+    height:470px;
+    max-width: 1250px;
 }
 
-@media (max-width:1100px) {
+@media (max-width:1130px) {
     .iframe-box
 {
-    width: 420px;
-    height:340px;
+    height:360px;
+    width: 90%;
 }
 }
 
 
-@media (max-width:460px) {
+@media (max-width:440px) {
     .iframe-box
 {
-    width: 100%;
+    width: 95%;
+}
+}
+
+@media (max-width:350px) {
+    .iframe-box
+{
+    height:300px;
 }
 }

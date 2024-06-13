@@ -18,7 +18,7 @@ const Aboutusmissionvision = () => {
                         </div>
                     </div>
                     <div className='Aboutusmissionvision-detail'>
-                    Our aim is to create leading entrepreneurs and successful ventures by fostering innovative minds, young entrepreneurs, students, alumni and other members of the NSUT community and providing them with required training, mentorship, technical assistance, legal guidance, financial grants, connect to venture capitalist, working space, sharing knowledge and community networks.
+                    Our aim is to create leading entrepreneurs and successful ventures by fostering innovative minds, young entrepreneurs, students, alumni and other members of the MMMUT Foundation community and providing them with required training, mentorship, technical assistance, legal guidance, financial grants, connect to venture capitalist, working space, sharing knowledge and community networks.
                     </div>
                 </div>
 

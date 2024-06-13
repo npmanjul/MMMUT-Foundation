@@ -9,7 +9,6 @@ const GoogleMap = () => {
     <>
       <iframe
         src={mapSrc}
-       
         style={{ border: 0 ,outline:0,borderRadius: '10px' }}
         allowFullScreen=""
         loading="lazy"

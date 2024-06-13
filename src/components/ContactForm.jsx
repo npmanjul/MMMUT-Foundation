@@ -1,12 +1,17 @@
 import React from 'react';
-import './contactform.css'
+import './contactform.css';
+import formImg from '../assets/Contactus/image.png'
 
 const ContactForm = () => {
   return (
     <>
-      <div className='contactform_container'>
-
-        <form action="/submit" method="post"  className='contactform_area'>
+      <div className='contactform_main_box'>
+        <div className='contactform_upper_container'>
+        <img src={formImg}/>
+        </div>
+        
+        <div className='contactform_container'>
+        <form action="/submit" method="post" className='contactform_area'>
 
           <div className='input-area'>
             <label for="name">Name:</label>
@@ -16,7 +21,7 @@ const ContactForm = () => {
 
           <div className='input-area'>
             <label for="password">Phone No. :</label>
-            <input type="number" id="number" name="number"  placeholder='Enter your phone No.' required />
+            <input type="number" id="number" name="number" placeholder='Enter your phone No.' required />
           </div>
 
 
@@ -40,9 +45,10 @@ const ContactForm = () => {
           </div>
 
           <div className='btn-area'>
-          <input type="submit" value="Submit" className='submit-btn' />
+            <input type="submit" value="Submit" className='submit-btn' />
           </div>
         </form>
+      </div>
       </div>
 
     </>

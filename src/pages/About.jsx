@@ -9,11 +9,15 @@ import Boardmembers from '../components/Boardmembers.jsx';
 const About = () => {
   return (
     <>
-      <Aboutushero/>
-      <Aboutusdetail/>
-      <Aboutusquote/>
-      <Aboutusmissionvision/>
-      <Boardmembers/>
+      <div className='top_main_container'>
+        <Aboutushero />
+        <div className='main_container'>
+          <Aboutusdetail />
+          <Aboutusquote />
+          <Aboutusmissionvision />
+          <Boardmembers />
+        </div>
+      </div>
     </>
   )
 }

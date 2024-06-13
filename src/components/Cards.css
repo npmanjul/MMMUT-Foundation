@@ -13,11 +13,12 @@
     border-radius: 10px;
   }
   .cont_base{
-    width: 80%;
+    width: 84%;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: row;
+    gap: 3rem;
   }
  
   .cont_title{
@@ -39,6 +40,7 @@
     font-family: sans-serif;
     font-weight: 600;
     align-items: center;
+    line-height: 32px;
   }
 
   .cont_txt_bold
@@ -46,7 +48,7 @@
     font-weight: 700;
   }
   .cont_txt p{
-    width: 90%;
+    width: 100%;
     text-align: justify;
     font-size: 21px;
   }

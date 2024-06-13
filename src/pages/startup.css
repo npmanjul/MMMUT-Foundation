@@ -1,11 +1,103 @@
-
+.startup-herosection
+{
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image:url('https://strapiprod.knowlarity.com/uploads/contact_us_5a6756504e.jpg'); */
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../assets//startup/pexels-mikael-blomkvist-6476254.jpg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    /* text-transform: uppercase; */
+}
 
 .startup-heading
 {
-    font-size: 3rem;
-    font-weight: 700;
-    text-transform: uppercase;
     width: 100%;
-    text-align: center;
-    padding-top: 2rem ;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    padding-top: 2rem;
+    font-weight: 700;
+    gap: 10px;
+}
+
+@media (max-width:1100px) {
+    .startup-herosection
+    {
+        height: 50vh;
+        
+    }
+   
+}
+
+@media (max-width:700px) {
+    .startup-heading
+    {
+        font-size: 2.5rem;
+    }
+
+    .startup-herosection
+    {
+        font-size: 4rem;
+        
+    }
+}
+
+@media (max-width:600px) {
+    .startup-heading
+    {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width:550px) {
+    .startup-heading
+    {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width:450px) {
+    .startup-heading
+    {
+        font-size: 1.7rem;
+    }
+
+    .startup-herosection
+    {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width:380px) {
+    .startup-heading
+    {
+        font-size: 1.5rem;
+    }
+
+    .startup-herosection
+    {
+        font-size: 3rem;
+    }
+}
+
+
+@media (max-width:340px) {
+    .startup-heading
+    {
+        font-size: 1.3rem;
+    }
+    .startup-herosection
+    {
+        font-size: 2.6rem;
+    }
 }

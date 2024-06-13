@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
 import Carousal from '../components/Home_carousal'
 import Card from '../components/Card';
 import Event from '../components/Event';
@@ -10,14 +11,16 @@ import OfferCards from '../components/OfferCards';
 
 const Home = () => {
   return (
-    <div>
+    <div className='top_main_container'>
       <Carousal/>
+      <div className='main_container'>
       <Card/>
       {/* <Event/> */}
       {/* <Achieve/> */}
       {/* <Offer/> */}
       <OfferCards/>
       <Form/>
+      </div>
     </div>
   )
 }

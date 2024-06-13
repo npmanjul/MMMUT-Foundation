@@ -11,32 +11,32 @@ const profiles = [
     {
         image: JPSainiImage,
         profilename: "Prof. J.P. Saini",
-        profiledesignation: "Director & VC MMMUT"
+        profiledesignation: "Chairman & Borad of Director"
     },
     {
         image: SKSoniImage,
         profilename: "Prof. Sanjay Kumar Soni",
-        profiledesignation: "Board of Director"
+        profiledesignation: "Borad of Director"
     },
     {
         image: JeeootSingh,
         profilename: "Prof. Jeeoot Singh",
-        profiledesignation: "Board of Member"
+        profiledesignation: "Borad of Director "
     },
     {
         image: SanjayMishra,
         profilename: "Prof. Sanjay Mishra",
-        profiledesignation: "Board of Member"
+        profiledesignation: "Borad of Director "
     },
     {
         image: jayprakash,
         profilename: "Prof. Jay Prakash",
-        profiledesignation: "Board of Member"
+        profiledesignation: "Borad of Director "
     },
     {
         image: abhijeetmishra,
         profilename: "Prof. Abhijeet Mishra",
-        profiledesignation: "Board of Member"
+        profiledesignation: "Borad of Director"
     },
 ];
 
@@ -45,6 +45,7 @@ const Boardmembers = () => {
         <div className='boardmember-container'>
             <div className='boardmember-heading'>
                 Our Board Members
+                <div className='horzontal-line'></div>
             </div>
             <div className='boardmember-area'>
                 {profiles.map((profile) => (
@@ -58,6 +59,7 @@ const Boardmembers = () => {
                             </div>
                             <div className='boardmember-designation'>
                                 {profile.profiledesignation}
+                                <div>MMMUT Foundation</div>
                             </div>
                         </div>
                     </div>

@@ -43,13 +43,13 @@
 }
 .symbole-size-l img
 {
-    height: 50px;
+    height: 40px;
     text-align: start;
 }
 
 .symbole-size-r img
 {
-    height: 50px;
+    height: 40px;
 }
 
 @media (max-width:600px) {

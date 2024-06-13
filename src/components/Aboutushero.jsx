@@ -5,7 +5,7 @@ const Aboutushero = () => {
   return (
    <>
     <div className='aboutushero-section'>
-    <p>MMMUT FOUNDATION</p>
+    <p>About Us</p>
     </div>
    </>
   )

@@ -1,12 +1,21 @@
+.footer_top_main_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(237, 233, 233);
+}
+
 .footer-container {
     width: 100%;
     height: auto;
-    background-color: rgb(237, 233, 233);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 2rem;
+    max-width: 1500px;
 }
 
 .footer-container-top {

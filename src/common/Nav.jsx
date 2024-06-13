@@ -93,11 +93,11 @@ const Nav = () => {
             &#9932;
           </div>
 
-          <Link to="/" onClick={toggleMenu}>Home</Link>
-          <Link to="/startup" onClick={toggleMenu}>Startup</Link>
-          <Link to="/about" onClick={toggleMenu}>About Us</Link>
-          <Link to="/apply" onClick={toggleMenu}>Apply</Link>
-          <Link to="/contact" onClick={toggleMenu}>Contact Us</Link>
+          <Link to="/" onClick={toggleMenu} className="animated-underline-button">Home</Link>
+          <Link to="/startup" onClick={toggleMenu} className="animated-underline-button">Startup</Link>
+          <Link to="/about" onClick={toggleMenu} className="animated-underline-button">About Us</Link>
+          <Link to="/apply" onClick={toggleMenu} className="animated-underline-button">Apply</Link>
+          <Link to="/contact" onClick={toggleMenu} className="animated-underline-button">Contact Us</Link>
         </div>
       </div>
     </div>

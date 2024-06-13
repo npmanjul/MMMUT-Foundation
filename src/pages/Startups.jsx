@@ -5,8 +5,13 @@ import Startupcard from '../components/Startupcard';
 const Startups = () => {
   return (
     <>
+    <div className='startup-herosection'>
+    Our Startup's
+    </div>
+
     <div className='startup-heading'>
-    Startup's
+    Our Incubated Startup's
+    <div className='horzontal-line'></div>
     </div>
 
     <Startupcard/>

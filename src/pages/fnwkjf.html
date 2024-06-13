@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Underline Animation</title>
+  <style>
+
+.animated-underline-button {
+  position: relative;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  transition: color 0.3s;
+}
+
+.animated-underline-button::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 0;
+  height: 4px;
+  background-color: rgb(45, 19, 19);
+  transition: width 0.3s;
+}
+
+.animated-underline-button:hover::after {
+  width: 100%;
+}
+
+  </style>
+</head>
+<body>
+  <button class="animated-underline-button">Hover Me</button>
+</body>
+</html>

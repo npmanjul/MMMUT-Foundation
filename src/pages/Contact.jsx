@@ -8,12 +8,17 @@ const Contact = () => {
   return (
     <>
       <div className='contact-container'>
+        <div className='contactus_herosection'>
+        Contact Us
+        </div>
         <div className='contact-upperbox'>
           <Contactbox />
         </div>
         <div className='contact-lowerbox'>
-          <GoogleMap />
           <ContactForm />
+        </div>
+        <div className='contact-buttombox'>
+          <GoogleMap />
         </div>
       </div>
 

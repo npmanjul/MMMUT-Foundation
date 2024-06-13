@@ -53,24 +53,13 @@
     display: flex;
     padding: 12px;
     justify-content: right;
-    background-color: #374758;
+    background-color: #214977;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     gap: 0.7rem;
 }
 
 
-
-
-.Nav_link a {
-    color: white;
-    transition: all .44s ease;
-}
-
-.Nav_link a:hover {
-    background: white;
-    color: rgb(0, 0, 0);
-}
 
 .Nav_contact .connect {
     display: flex;
@@ -204,6 +193,36 @@
 {
     height: 20px;
 }
+
+
+.animated-underline-button {
+    position: relative;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    transition: color 0.3s;
+    font-weight: 600;
+  }
+  
+  .animated-underline-button::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.3s;
+  }
+  
+  .animated-underline-button:hover::after {
+    width: 90%;
+  }
 @media (max-width:1215px) {
     
     .Nav_txt h1 {
