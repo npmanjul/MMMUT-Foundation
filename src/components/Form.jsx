@@ -5,7 +5,10 @@ const Form = () => {
     return (
         <>
             <div className='home-form'>
-                <div className='home-form-heading'>Subscribe to our monthly newsletter</div>
+                <div className='home-form-heading'>
+                <div className='home-form-heading_txt'>Subscribe to Our Monthly Newsletter</div>
+                <div className="homeform_horizontal_line"></div>
+                </div>
                 <div className='home-form-box'>
                     <form>
                         <div className='form-inputfield'>

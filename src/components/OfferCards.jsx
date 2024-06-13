@@ -50,7 +50,8 @@ const OfferCards = () => {
     return (
         <>
             <div className='offer-heading'>
-            WHAT WE OFFER
+            What We Offer
+            <div className="offercards_horizontal_line"></div>
             </div>
             <div className='container'>
                 {achievements.map((achievement) => (
@@ -60,7 +61,7 @@ const OfferCards = () => {
                                 <img src={achievement.image} />
                             </header>
                             <div className="offer_card__body">
-                                <h2 className="offer_card__title">{achievement.text}</h2>
+                                <div className='offer_card__title_box'><h2 className="offer_card__title">{achievement.text}</h2></div>
                                 <p className="offer_card__description">{achievement.detail}</p>
                             </div>
                         </article>

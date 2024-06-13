@@ -53,10 +53,11 @@
     display: flex;
     padding: 12px;
     justify-content: right;
-    background-color: #214977;
+    background-color: #183557;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     gap: 0.7rem;
+    box-shadow: 0 0 13px -4px #0000002e;
 }
 
 
@@ -182,6 +183,7 @@
     background-color: white;
     width: 100%;
     box-shadow: 0 0 13px -4px #0000002e;
+    
 }
 
 .mobile_navbar_logo img
@@ -392,6 +394,7 @@
         /* display: none; */
         left: -100%;
         transition: .60s ease-in-out;
+        box-shadow: 0 0 13px -4px #00000033;
 
     }
 
@@ -419,7 +422,7 @@
 
     .cross {
         color: white;
-        top: 4%;
+        top: 3%;
         right: 5%;
         position: absolute;
     }

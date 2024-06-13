@@ -11,32 +11,32 @@ const profiles = [
     {
         image: JPSainiImage,
         profilename: "Prof. J.P. Saini",
-        profiledesignation: "Chairman & Borad of Director"
+        profiledesignation: "Chairman & Board of Director"
     },
     {
         image: SKSoniImage,
         profilename: "Prof. Sanjay Kumar Soni",
-        profiledesignation: "Borad of Director"
+        profiledesignation: "Board of Director"
     },
     {
         image: JeeootSingh,
         profilename: "Prof. Jeeoot Singh",
-        profiledesignation: "Borad of Director "
+        profiledesignation: "Board of Director "
     },
     {
         image: SanjayMishra,
         profilename: "Prof. Sanjay Mishra",
-        profiledesignation: "Borad of Director "
+        profiledesignation: "Board of Director "
     },
     {
         image: jayprakash,
         profilename: "Prof. Jay Prakash",
-        profiledesignation: "Borad of Director "
+        profiledesignation: "Board of Director "
     },
     {
         image: abhijeetmishra,
         profilename: "Prof. Abhijeet Mishra",
-        profiledesignation: "Borad of Director"
+        profiledesignation: "Board of Director"
     },
 ];
 

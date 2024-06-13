@@ -15,6 +15,7 @@
     align-items: center;
     width: 50%;
     position: relative;
+    flex-direction: column;
 }
 .quote-text
 {
@@ -27,19 +28,23 @@
 {
     font-style: italic;
     font-weight: 700;
+    text-align: right;
+    width: 100%;
+    padding-top: 8px;
+    font-size: 18px;
 }
 .symbole-size-l
 {
    position: absolute;
-   top: -19px;
-   left: -61px;
+   top: -8px;
+   left: -56px;
 }
 
 .symbole-size-r
 {
    position: absolute;
-   bottom: -19px;
-   right: -61px;
+   bottom: -17px;
+   right: -72px;
 }
 .symbole-size-l img
 {

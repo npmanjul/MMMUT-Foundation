@@ -70,15 +70,72 @@
     text-align: center;
 }
 
-@media (max-width:600px) {
-    .boardmember-heading {
+@media (max-width:800px) {
+    .boardmember-heading
+    {
         font-size: 2.5rem;
+        padding: 2rem 0
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:650px) {
+    .boardmember-heading
+    {
+        font-size: 2rem;
+        padding: 1.5rem 0
+    }
+
+    .aboutusdetail-contant
+{
+
+    font-size: 20px;
+}
+}
+
+@media (max-width:600px) {
+    .boardmember-heading {
+        font-size: 2.5rem;
+        margin-bottom: 0rem;
+    }
+}
+
+@media (max-width:550px)
+{
+    .boardmember-heading
+    {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:465px) {
+    .boardmember-heading
+    {
+        
+        padding: 1.3rem 0
+    }
     .boardmember-area {
         width: 100%;
        
     }
 }
+
+
+
+
+@media (max-width:380px) {
+    .boardmember-heading
+    {
+        padding: 1.5rem 0
+    }
+}
+
+@media (max-width:350px) {
+    .boardmember-heading
+    {
+        font-size: 1.6rem;
+        padding: 1.5rem 0
+    }
+}
+
+
+

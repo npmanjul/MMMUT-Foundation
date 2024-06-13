@@ -9,8 +9,29 @@
 }
 
 .home-form-heading {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.home-form-heading_txt
+{
+    width: 70%;
+    text-align: center;
+}
+
+.homeform_horizontal_line
+{
+    height: 3px;
+    width: 85%;
+    background-color: black;
 }
 
 .home-form-box {
@@ -38,6 +59,7 @@
     font-size: 0.9rem;
     padding-bottom: 0.3rem;
     padding-left: 0.3rem;
+    font-weight: 700;
 }
 
 .form-inputfield input {
@@ -73,7 +95,7 @@
     width: 100px;
     font-size: 16px;
     border: 0;
-    background-color: #374758;
+    background-color: #000000;
     font-weight: 600;
     color: white;
     cursor: pointer;
@@ -82,13 +104,19 @@
 }
 
 .form-button-submit button:hover {
-    background-color: #374758d3;
+    background-color: #000000e7;
 }
 
+@media (max-width:850px) {
+    .home-form-heading
+    {
+        font-size: 2.3rem;
+    }
+}
 
 @media (max-width:600px) {
     .home-form-heading {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .home-form-box {
@@ -100,17 +128,22 @@
 
 @media (max-width:450px) {
     .home-form-heading {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
 
     .home-form-box {
         width: 80%;
     }
+    .home-form-heading_txt
+{
+    width: 80%;
+    text-align: center;
+}
 }
 
 @media (max-width:360px) {
     .home-form-heading {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
 
     .home-form-box {

@@ -21,7 +21,13 @@
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
+    transition: all 0.2s ease-in-out;
 
+}
+
+.startup-box:hover
+{
+    background-color: rgb(230, 236, 236);
 }
 
 .startup-img img

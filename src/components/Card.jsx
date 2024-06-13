@@ -1,15 +1,18 @@
 import React from "react";
 import "./Cards.css";
+import cardImg from '../assets/Home/img9.jpg'
+
 const Card = () => {
   return (
     <>
       <div className="cont">
         <div className="cont_title">
-          <h1>MMMUT FOUNDATION</h1>
+          <h1>MMMUT Foundation</h1>
+          <div className="card_horizontal_line"></div>
         </div>
         <div className="cont_base">
           <div className="cont_img">
-            <img src="/img/img9.jpg" alt="" />
+            <img src={cardImg} alt="Card_Img" />
           </div>
           <div className="cont_txt">
             <p>

@@ -40,7 +40,7 @@
 
 .footer-logo-title {
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 0.8rem;
 }
 
@@ -62,6 +62,8 @@
     font-size: 17px;
     padding: 2px;
     cursor: pointer;
+    text-align: center;
+    font-weight: 500;
 }
 
 .footer-right {
@@ -70,6 +72,7 @@
     align-items: start;
     flex-direction: column;
     gap: 1rem;
+    font-weight: 500;
 }
 
 .footer-contact {
@@ -216,6 +219,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        
     }
 
     .footer-address-details
