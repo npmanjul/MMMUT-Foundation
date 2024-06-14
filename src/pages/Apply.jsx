@@ -1,13 +1,39 @@
-import React from 'react'
-import ContactForm from '../components/ContactForm'
+import React, { useState } from "react";
+import "./apply.css";
 
-const Apply = () => {
+const Dropdown = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <>
-     {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfdiIN1W2zL7aHTyrSIotW6ZFk_zctJVh-fL4xyVj5J27CMqQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0"></iframe> */}
-     Apply form
-    </>
-  )
-}
+    <div className="apply">
+      <h1>APPLY FOR INCUBATION</h1>
+      <div className="dropdown">
+        <div className="dropdown-header" onClick={toggleDropdown}>
+          <span>Apply here </span>
+          <span className={`status ${isOpen ? "open" : ""}`}>Open</span>
+          <span className={`arrow ${isOpen ? "up" : "down"}`}></span>
+        </div>
+        {isOpen && (
+          <div className="dropdown-content">
+            <ul>
+              <li>Event Date: 2024-10-15</li>
+              <li>Application Opens: 2024-06-01</li>
+              <li>Application Closes: 2024-08-10</li>
+            </ul>
+            <a href="https://forms.gle/MMJ1H1eX9PowdABq6"><button className="apply-button">Apply</button></a>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
 
-export default Apply
+export default Dropdown;
+
+{
+  /* https://forms.gle/MMJ1H1eX9PowdABq6 */
+}
