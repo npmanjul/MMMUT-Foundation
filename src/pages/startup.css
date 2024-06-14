@@ -5,7 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     /* background-image:url('https://strapiprod.knowlarity.com/uploads/contact_us_5a6756504e.jpg'); */
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../assets//startup/pexels-mikael-blomkvist-6476254.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../assets//startup/startuphero.jpg');
     background-position: center;
     display: flex;
     justify-content: center;
