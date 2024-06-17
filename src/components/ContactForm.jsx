@@ -8,7 +8,7 @@ const ContactForm = () => {
     name: '',
     number: '',
     email: '',
-    country: '',
+    purpose: '',
     message: ''
   });
 
@@ -25,13 +25,13 @@ const ContactForm = () => {
 
     emailjs.send('adkumargmail', 'template_o3q8fxc', formData, 'Qf2Vq9GGZ7_QZOAUI')
       .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
+        // console.log('SUCCESS!', response.status, response.text);
         alert('Email sent successfully');
         setFormData({
           name: '',
           number: '',
           email: '',
-          country: '',
+          purpose: '',
           message: ''
         });
       }, (error) => {
@@ -84,11 +84,11 @@ const ContactForm = () => {
             />
           </div>
           <div className='input-area'>
-            <label htmlFor="country">Purpose:</label>
+            <label htmlFor="purpose">Purpose:</label>
             <select
-              id="country"
-              name="country"
-              value={formData.country}
+              id="purpose"
+              name="purpose"
+              value={formData.purpose}
               onChange={handleChange}
               required
             >
