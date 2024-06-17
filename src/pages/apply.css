@@ -4,17 +4,24 @@
     /* width: 100%; */
     margin: 20px;
     font-family: Arial, sans-serif;
+    width: 80%;
  
   }
-  .apply{
+  .apply-heading{
     width: 100%;
     min-height: 35vh;
     transition: .44s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
   }
-  .apply h1{
+  .apply-heading h1{
     text-align: center;
+    padding: 2rem 0;
    }
-   .apply span{
+   .apply-heading span{
     font-size: 20px;
    }
   .dropdown-header {

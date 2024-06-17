@@ -9,12 +9,12 @@ const Dropdown = () => {
   };
 
   return (
-    <div className="apply">
+    <div className="apply-heading">
       <h1>APPLY FOR INCUBATION</h1>
       <div className="dropdown">
         <div className="dropdown-header" onClick={toggleDropdown}>
           <span>Apply here </span>
-          <span className={`status ${isOpen ? "open" : ""}`}>Open</span>
+          {/* <span className={`status ${isOpen ? "open" : ""}`}>Open</span> */}
           <span className={`arrow ${isOpen ? "up" : "down"}`}></span>
         </div>
         {isOpen && (
