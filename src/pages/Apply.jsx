@@ -10,7 +10,7 @@ const Dropdown = () => {
 
   return (
     <div className="apply-heading">
-      <h1>APPLY FOR INCUBATION</h1>
+      <h1>Apply For Incubation</h1>
       <div className="dropdown">
         <div className="dropdown-header" onClick={toggleDropdown}>
           <span>Apply here </span>

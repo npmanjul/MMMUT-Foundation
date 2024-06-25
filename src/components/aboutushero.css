@@ -48,13 +48,13 @@
     
     .aboutushero-section p
     {
-        font-size: 4rem ;
+        font-size: 3.5rem ;
     }
 }
 
 @media (max-width:350px) {
     .aboutushero-section p
     {
-        font-size: 3.5rem ;
+        font-size: 3rem ;
     }
 }

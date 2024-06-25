@@ -422,9 +422,10 @@
 
     .cross {
         color: white;
-        top: 3%;
-        right: 5%;
+        top: 2%;
+        right: 6%;
         position: absolute;
+        font-size: 23px;
     }
 
     .Nav_link a {
