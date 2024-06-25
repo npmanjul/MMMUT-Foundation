@@ -1,13 +1,13 @@
 import React from "react";
 import "./Cards.css";
-import cardImg from '../assets/Home/img9.jpg'
+import cardImg from '../assets/Home/img 1.jpg'
 
 const Card = () => {
   return (
     <>
       <div className="cont">
         <div className="cont_title">
-          <h1>MMMUT Foundation</h1>
+          <span >MMMUT Foundation</span>
           <div className="card_horizontal_line"></div>
         </div>
         <div className="cont_base">

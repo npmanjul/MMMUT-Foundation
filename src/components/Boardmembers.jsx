@@ -43,8 +43,8 @@ const profiles = [
 const Boardmembers = () => {
     return (
         <div className='boardmember-container'>
-            <div className='boardmember-heading'>
-                Our Board Members
+            <div className='boardmember-heading-box'>
+                <div className='boardmember-heading'>Our Board Members</div>
                 <div className='horzontal-line'></div>
             </div>
             <div className='boardmember-area'>

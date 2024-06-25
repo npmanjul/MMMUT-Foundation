@@ -8,15 +8,25 @@
     padding-bottom: 2rem;
 }
 
-.boardmember-heading {
+.boardmember-heading-box
+{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.boardmember-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    
 }
 
 .boardmember-area {
@@ -25,7 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 0;
     gap: 4rem;
     flex-wrap: wrap;
 }
@@ -74,15 +84,14 @@
     .boardmember-heading
     {
         font-size: 2.5rem;
-        padding: 2rem 0
+        text-align: center;
     }
 }
 
 @media (max-width:650px) {
     .boardmember-heading
     {
-        font-size: 2rem;
-        padding: 1.5rem 0
+      width: 80%;
     }
 
     .aboutusdetail-contant
@@ -92,27 +101,17 @@
 }
 }
 
-@media (max-width:600px) {
-    .boardmember-heading {
-        font-size: 2.5rem;
-        margin-bottom: 0rem;
-    }
-}
 
-@media (max-width:550px)
+
+/* @media (max-width:550px)
 {
     .boardmember-heading
     {
         font-size: 1.8rem;
     }
-}
+} */
 
 @media (max-width:465px) {
-    .boardmember-heading
-    {
-        
-        padding: 1.3rem 0
-    }
     .boardmember-area {
         width: 100%;
        
@@ -122,18 +121,10 @@
 
 
 
-@media (max-width:380px) {
-    .boardmember-heading
-    {
-        padding: 1.5rem 0
-    }
-}
-
 @media (max-width:350px) {
     .boardmember-heading
     {
-        font-size: 1.6rem;
-        padding: 1.5rem 0
+        font-size: 2rem;
     }
 }
 

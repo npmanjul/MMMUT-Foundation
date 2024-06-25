@@ -5,8 +5,8 @@ const Aboutusdetail = () => {
     return (
         <>
             <div className='aboutusdetail'>
-                <div className='aboutusdetail-heading'>
-                About MMMUT Foundation
+                <div className='aboutusdetail-heading-box'>
+                <div className='aboutusdetail-heading'>About MMMUT Foundation</div>
                 <div className='horzontal-line'></div>
                 </div>
                 <div className='aboutusdetail-contant'>

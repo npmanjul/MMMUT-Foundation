@@ -33,8 +33,7 @@ const Aboutusmissionvision = () => {
                         </div>
                     </div>
                     <div className='Aboutusmissionvision-detail'>
-                    Inspired from “योगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये” of Bhagvat Geeta, we aspire to be a premiere incubation hub of national and global recognition that cultivates a self evolving entrepreneurial ecosystem of industrial R&D for the economic and scientific growth of the Society and Nation.
-                    </div>
+                    Empowering a premier incubation hub with global recognition, we foster a dynamic entrepreneurial ecosystem for industrial R&D. Through visionary startups, strategic partnerships, and cutting-edge research, we drive economic and scientific growth, positioning our society at the forefront of global innovation. Together, we cultivate creativity, empower businesses, and ensure sustainable prosperity.                   </div>
                 </div>
             </div>
         </>

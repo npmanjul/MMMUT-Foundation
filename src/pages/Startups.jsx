@@ -9,8 +9,8 @@ const Startups = () => {
     Our Startup's
     </div>
 
-    <div className='startup-heading'>
-    Our Incubated Startup's
+    <div className='startup-heading-box'>
+    <div className='startup-heading'>Our Incubated Startup's</div>
     <div className='horzontal-line'></div>
     </div>
 

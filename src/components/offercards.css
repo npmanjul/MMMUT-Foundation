@@ -198,7 +198,7 @@
         width: 300px;
     }
 }
-@media (max-width:370px) {
+@media (max-width:359px) {
     .offer-heading
     {
         font-size: 1.5rem;

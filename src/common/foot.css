@@ -50,6 +50,17 @@
     align-items: center;
     flex-direction: row;
     width: 66%;
+    color: black;
+}
+
+.active-state
+{
+    color: black;
+}
+
+.active-state:active
+{
+    font-weight: 700;
 }
 
 .footer-navigation-heading {
@@ -73,6 +84,11 @@
     flex-direction: column;
     gap: 1rem;
     font-weight: 500;
+    color: black;
+}
+.footer-address-details a
+{
+    color: black;
 }
 
 .footer-contact {
@@ -93,6 +109,15 @@
     font-weight: 700;
     font-size: 17px;
     padding-bottom: 5px;
+}
+
+.footer-emailaddress a
+{
+    color: black;
+}
+.footer-phoneno a
+{
+    color: black;
 }
 
 .footer-container-buttom {

@@ -43,9 +43,10 @@
     background-color: black;
   }
 
-  .cont_title h1
+  .cont_title span
   {
     font-size: 3rem;
+    font-weight: 700;
   }
 
   .cont_txt{
@@ -104,7 +105,7 @@
   }
 
   @media (max-width:720px) {
-    .cont_title h1{
+    .cont_title span{
       font-size: 2.5rem;
     }
   
@@ -117,7 +118,7 @@
 
   @media (max-width:550px)
   {
-    .cont_title h1
+    .cont_title span
     {
       font-size: 2.4rem;
     }
@@ -125,7 +126,7 @@
 
   @media (max-width:450px)
   {
-    .cont_title h1
+    .cont_title span
     {
       /* width: 80%; */
       font-size: 2rem;
@@ -148,7 +149,7 @@
 
   @media (max-width:370px)
   {
-    .cont_title h1
+    .cont_title span
     {
       font-size: 1.9rem;
     }
@@ -161,7 +162,7 @@
 
   @media (max-width:350px)
   {
-    .cont_title h1
+    .cont_title span
     {
       font-size: 1.6rem;
     }

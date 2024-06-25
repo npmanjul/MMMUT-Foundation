@@ -9,6 +9,16 @@
     padding-bottom: 1rem;
 }
 
+.aboutusdetail-heading-box
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
 .aboutusdetail-heading
 {
     font-size: 3rem;
@@ -17,9 +27,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 2rem 0
+
 }
+
+
 
 .aboutusdetail-contant
 {
@@ -53,21 +64,21 @@
     .aboutusdetail-heading
     {
         font-size: 2.5rem;
-        padding: 2rem 0
+        /* padding: 2rem 0; */
+        text-align: center;
     }
 }
 
 @media (max-width:650px) {
     .aboutusdetail-heading
     {
-        font-size: 2rem;
-        padding: 1.5rem 0
+        width: 80%;
     }
 
     .aboutusdetail-contant
 {
 
-    font-size: 20px;
+    font-size: 19px;
 }
 }
 
@@ -75,31 +86,34 @@
 {
     .aboutusdetail-heading
     {
-        font-size: 1.8rem;
+        /* font-size: 1.8rem; */
     }
 }
 
 @media (max-width:465px) {
     .aboutusdetail-heading
     {
-        font-size: 1.5rem;
-        padding: 1.3rem 0
+        font-size: 2.2rem;
     }
 }
 
 
-@media (max-width:380px) {
+/* @media (max-width:380px) {
     .aboutusdetail-heading
     {
         font-size: 1.4rem;
-        padding: 1.5rem 0
+
     }
-}
+} */
 
 @media (max-width:350px) {
     .aboutusdetail-heading
     {
-        font-size: 1.3rem;
-        padding: 1.5rem 0
+        font-size: 1.5rem;
+    }
+    .aboutusdetail-contant
+    {
+    
+        font-size: 18px;
     }
 }

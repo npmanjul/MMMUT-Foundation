@@ -30,38 +30,31 @@
     }
 }
 
-@media (max-width:1000px) {
-    .aboutushero-section p
-    {
-        font-size: 3.5rem ;
-    }
-}
+
 
 @media (max-width:750px) {
     .aboutushero-section p
     {
-        font-size: 3rem ;
+        font-size: 4.5rem ;
     }
 }
 
-@media (max-width:650px) {
-
-    .aboutushero-section p
-    {
-        font-size: 2.5rem ;
-    }
-}
 
 @media (max-width:430px) {
     .aboutushero-section
     {
         height: 50vh;
     }
+    
+    .aboutushero-section p
+    {
+        font-size: 4rem ;
+    }
 }
 
 @media (max-width:350px) {
     .aboutushero-section p
     {
-        font-size: 2rem ;
+        font-size: 3.5rem ;
     }
 }

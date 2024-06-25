@@ -45,7 +45,7 @@
 
 .Aboutusmissionvision-detail
 {
-    font-size: 1.3rem;
+    font-size: 20px;
     width: 80%;
     font-weight: 600;
     color: white;
@@ -89,26 +89,45 @@
 {
     width: 90%;
     flex-direction: column;
+    gap: 1.5rem;
 }
 
 .Aboutusmissionvision-detail
 {
-    font-size: 1.3rem;
+    font-size: 19px;
     width: 100%;
+    line-height: 27px;
 }
+
+.Aboutusmissionvision-title
+{
+    font-size: 2.2rem;
+}
+
 }
 
 
-@media (max-width:800px) {
+@media (max-width:500px) {
     .Aboutusmissionvision-mission
-    {
-        width: 90%;
-        padding: 1.5rem;
-    }
+{
+    width: 90%;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 
 .Aboutusmissionvision-detail
 {
-    font-size: 1.1rem;
+    font-size: 19px;
     width: 100%;
+    line-height: 27px;
 }
+
+.Aboutusmissionvision-title
+{
+    font-size: 1.9rem;
 }
+
+}
+
+
+

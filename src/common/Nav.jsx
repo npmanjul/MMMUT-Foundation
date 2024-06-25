@@ -60,7 +60,7 @@ const Nav = () => {
         <div className="Nav_txt">
           <h1>Madan Mohan Malaviya University of Technology, Gorakhpur (U.P.) India</h1>
           <h2>मदन मोहन मालवीय प्रौद्योगिकी विश्वविद्यालय, गोरखपुर (उ.प्र.) भारत</h2>
-          <h3>M.M.M.U.T. FOUNDATION</h3>
+          <h3>MMMUT FOUNDATION</h3>
         </div>
         <div className="Nav_img">
           <img src={mmmutlogo} alt="MMMUT" />

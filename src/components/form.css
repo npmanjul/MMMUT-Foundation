@@ -21,14 +21,12 @@
     padding-bottom: 2rem;
 }
 
-.home-form-heading_txt
-{
+.home-form-heading_txt {
     width: 70%;
     text-align: center;
 }
 
-.homeform_horizontal_line
-{
+.homeform_horizontal_line {
     height: 3px;
     width: 85%;
     background-color: black;
@@ -108,9 +106,12 @@
 }
 
 @media (max-width:850px) {
-    .home-form-heading
-    {
+    .home-form-heading {
         font-size: 2.3rem;
+    }
+
+    .home-form-box {
+        width: 70%;
     }
 }
 
@@ -120,7 +121,7 @@
     }
 
     .home-form-box {
-        width: 70%;
+        width: 80%;
     }
 }
 
@@ -134,11 +135,11 @@
     .home-form-box {
         width: 80%;
     }
-    .home-form-heading_txt
-{
-    width: 80%;
-    text-align: center;
-}
+
+    .home-form-heading_txt {
+        width: 80%;
+        text-align: center;
+    }
 }
 
 @media (max-width:360px) {
