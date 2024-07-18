@@ -10,7 +10,7 @@ const Form = () => {
                 <div className="homeform_horizontal_line"></div>
                 </div>
                 <div className='home-form-box'>
-                    <form>
+                    <form action="https://formspree.io/f/manwnkvj" method="POST">
                         <div className='form-inputfield'>
                             <label for="name">Name:</label>
                             <input type="text" id="name" name="name" required />
