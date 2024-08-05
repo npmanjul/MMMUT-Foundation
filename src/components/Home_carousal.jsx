@@ -43,13 +43,13 @@ export default function App() {
         <SwiperSlide>
           <img src="/img/img4.jpg" alt="" />
         </SwiperSlide>
+        <SwiperSlide>
+          <img src="/img/img3.jpg" alt="" />
+        </SwiperSlide>
         {/* <SwiperSlide>
-          <img src="/img/img5.jpg" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
           <img src="/img/img6.jpg" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> */}
+        {/* <SwiperSlide>
           <img src="/img/img1.jpg" alt="" />
         </SwiperSlide> */}
       </Swiper>

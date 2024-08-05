@@ -54,7 +54,10 @@ const Nav = () => {
     <div id="navbar" className="Nav">
       <div className="Nav_mid">
         <div className="Nav_img mmmlogo">
-          <img src={mmmutfoundationlogo} alt="MMMUT Foundation" />
+        <Link to="/">
+        <img src={mmmutfoundationlogo} alt="MMMUT Foundation" />
+        </Link>
+          
         </div>
 
         <div className="Nav_txt">
@@ -63,7 +66,7 @@ const Nav = () => {
           <h3>MMMUT FOUNDATION</h3>
         </div>
         <div className="Nav_img">
-          <img src={mmmutlogo} alt="MMMUT" />
+          <a href="http://www.mmmut.ac.in/" target="_blank"><img src={mmmutlogo} alt="MMMUT" /></a>
         </div>
 
       </div>
@@ -75,7 +78,9 @@ const Nav = () => {
       <div className="mobile_navbar">
         <div className="mobile_navbar_container">
           <div className="mobile_navbar_logo">
+          <Link to="/">
             <img src={mobilelogo} />
+        </Link>
           </div>
           <div onClick={toggleMenu} className="nav_menu_icon">
             <img src={menuline}/>

@@ -1,3 +1,38 @@
+.Apply-herosection
+{
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image:url('https://www.usmle.org/sites/default/files/2021-09/apply_for_exams_0.jpg'); */
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../assets//Apply/heroapplypage.png');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+.apply-container
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.Apply-box
+{
+  max-width: 1500px;
+  width: 100%;
+  
+}
+
 .dropdown {
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -5,23 +40,42 @@
     margin: 20px;
     font-family: Arial, sans-serif;
     width: 80%;
+    margin-top: 3rem;
  
+  }
+
+  .Apply_here_heading
+  {
+    font-size: 16px;
+    font-weight: 700;
   }
   .apply-heading{
     width: 100%;
-    min-height: 35vh;
-    transition: .44s ease-in-out;
+    transition: 1s ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
   }
-  .apply-heading h1{
-    text-align: center;
-    padding: 2rem 0;
-   }
-   .apply-heading span{
+  .apply-heading-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 700;
+    gap: 0.4rem;
+    padding-top: 2rem;
+  }
+  .heading-line
+  {
+    height: 4px;
+    width: 85%;
+    background-color: black;
+  }
+   .Apply_here_heading {
     font-size: 20px;
    }
   .dropdown-header {
@@ -77,16 +131,91 @@
   }
   
   .apply-button {
-    background-color: #4299e1;
+    background-color: #183557;
     color: white;
     border: none;
     padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
+    font-weight: 600;
   }
   
   .apply-button:hover {
-    background-color: #3182ce;
+    background-color: #2d5078;
   }
+
+
+
   
+  .dropdown-font
+  {
+    font-weight: 700;
+    font-family: 14px;
+  }
+
+  @media (max-width:1100px) {
+    .Apply-herosection
+    {
+        height: 50vh;
+        
+    }
+   
+}
+
+@media (max-width:700px) {
+
+  .Apply-herosection
+    {
+        font-size: 4rem;
+        
+    }
+    .apply-heading-box{
+      font-size: 3rem;
+      padding-top: 1.5rem;
+    }
+}
+
+@media (max-width:550px)
+{
+  .apply-heading-box{
+    font-size: 2.4rem;
+    padding-top: 1.5rem;
+  }  
+}
+
+
+
+@media (max-width:450px) {
+
+  .Apply-herosection
+    {
+        font-size: 3.5rem;
+    }
+    .apply-heading-box{
+      font-size: 2rem;
+      padding-top: 1.5rem;
+    } 
+}
+
+@media (max-width:380px) {
+  
+
+  .Apply-herosection
+    {
+        font-size: 3rem;
+    }
+}
+
+
+@media (max-width:340px) {
+  .Apply-herosection
+    {
+        font-size: 2.6rem;
+    }
+    .apply-heading-box{
+      font-size: 1.7rem;
+
+    }
+}
+

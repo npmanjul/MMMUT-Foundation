@@ -37,7 +37,11 @@
     padding: 2rem 0;
     gap: 4rem;
     flex-wrap: wrap;
+    /* cursor: pointer; */
 }
+
+
+
 
 .boardmember-profile-cards {
     height: 330px;
@@ -50,8 +54,8 @@
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.157) 0px 0px 10px -2.5px;
     gap: 1rem;
+    transition: all 0.2s ease-in-out;
 }
-
 .boardmember-img img {
     height: 160px;
     width: 160px;

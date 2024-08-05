@@ -39,7 +39,7 @@ const Foot = () => {
                 </div>
                 <div className='footer-contact'>
                   <div className='footer-contact-heading'>Contact</div>
-                  <div className='footer-emailaddress'><a href="mailto:example@example.com">mmmutfoundation@gmail.com</a>
+                  <div className='footer-emailaddress'><a href="mailto:mmmutfoundation@gmail.com">mmmutfoundation@gmail.com</a>
                   </div>
                   <div className='footer-phoneno'><a href="tel:+1234567890" class="contact-link">9876543210</a></div>
                 </div>
